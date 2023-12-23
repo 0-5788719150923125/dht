@@ -10,6 +10,9 @@ services:
       context: .
       dockerfile: Dockerfile
       shm_size: '1gb'
+    volumes:
+      - ./entrypoint.sh:/src/entrypoint.sh
+      - ./data:/data
     ports:
       - 4002:4002/tcp
       - 4002:4002/udp

@@ -1,2 +1,2 @@
 # dht
-an ipfs alternative
+a hivemind server
